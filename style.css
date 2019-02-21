@@ -22,6 +22,7 @@ body {
   height: 75px;
   font-weight: 900;
   display: inline-block;
+  z-index: 10;
   /* border: 1px solid black; */
 }
 
@@ -137,6 +138,7 @@ li {
   list-style-type: none;
   font-size: 25px;
   text-align: left;
+  
 }
 
 .reminder img {
@@ -214,7 +216,7 @@ li {
 #contact {
   margin: 20px auto;
   width: 95%;
-  text-align: left;
+  text-align: center;
   /* border: 1px solid black; */
 }
 
@@ -247,10 +249,13 @@ input[type=email] {
   /* resize: vertical; */
 }
 input[type=submit] {
-  background-color: aqua;
+  background-color: purple;
   color: white;
+  height: 50px;
+  width: 10%;
+
 }
-input[type=submit] :hover {
+input[type=submit]:hover {
   background-color: black;
 }
 
