@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url(http://www.wallpapermaiden.com/image/2016/06/09/gradient-pink-color-abstract-707.jpg);
   background-size: cover;
@@ -18,7 +22,7 @@ body {
 }
 
 #logo {
-  font-size: 40px;
+  font-size: 50px;
   font-family: Arial;
   width: 150px;
   border: 1px solid black;
@@ -36,10 +40,10 @@ body {
   right: 20px;
 }
 
-li {
+.menu li {
   display: inline-block;
   border: 1px solid blue;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 
@@ -51,19 +55,50 @@ li {
 }
 
 .banner {
-  height: 300px;
+  height: 500px;
   background-image: url("https://hubworks.com/assets/images/articles/improve-your-business-using-the-best-task-reminder-app-800x450.png");
   background-size: cover;
   text-align: left;
   
 }
 
+.bannertext {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
 .feature {
   margin: -70px auto;
   width: 95%;
-  text-align: center;
   border: 1px solid black;
-  height: 250px;
+  text-align: center;
+  font-size: 20px;
+}
+
+ul {
+  text-align: center;
+  ist-style-type: none;
+  margin-left: 0px;
+}
+
+li {
+  display: block;
+}
+
+.reminder {
+  border: 1px solid black;
+  ist-style-type: none;
+}
+
+.method {
+  border: 1px solid black;
+  ist-style-type: none;
+}
+
+.broadcast {
+  border: 1px solid black;
+  ist-style-type: none;
 }
 
 .clients {
@@ -71,7 +106,6 @@ li {
   width: 95%;
   text-align: center;
   border: 1px solid black;
-
   
 }
 
@@ -80,12 +114,27 @@ li {
   width: 95%;
   text-align: center;
   border: 1px solid black;
-  
-}
+  }
 
 .contact {
   margin-top: 90px;
+  margin-bottom: 20px;
   width: 100%;
   text-align: center;
   border: 1px solid black;
+}
+
+footer {
+  background-color: orange;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+
+ 
+}
+
+.foottext {
+  display: inline-block;
+
+  margin-top: 15px;
 }

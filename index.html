@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Typography Blog</title>
-  <link rel="stylesheet" type="text/css" href="styles/reset.css">
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <title>Inget.in</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
   <!-- Header -->
   <div class= "header">
-    <a id= "logo">Inget.IN</a>
+    <a id= "logo">Inget.in</a>
     <div class= "menu">
     <ul>
       <li><a href="#tofeature">Feature</a></li>
@@ -22,33 +21,52 @@
   </div>
 
   <!-- Home  -->
-  <div class="home">
+  <div class="home"  id="tohome">
     <div class="banner">
-      <h1 name="tohome">Inget.in</h1>
-        <p>Sebuah aplikasi pengingat otomatis berbasis web dan mobile App yang bertujuan meningkatkan loyalitas pelanggan showroom dan bengkel kendaraan roda 4 </p>
-      </div>
+      <div class="bannertext">
+          <h1>Inget.in</h1>
+          <p>Sebuah aplikasi pengingat otomatis untuk meningkatkan loyalitas pelanggan pembeli kendaraan roda 4</p>
+      </div>      
+    </div>
   </div>
   
   <!-- feature -->
-  <div class="feature">
-    <h3 name="tofeature">Apa saja fitur Inget.in ?</h3>
-    <div class=reminder>
-      <p>Inget.in bisa mengingatkan anda tentang :</p>
-    
+  <div class="feature" id="tofeature">
+      <h2>Apa saja fitur Inget.in ?</h2>
+      <div class=reminder>
+        <p>Inget.in bisa mengingatkan anda tentang :</p>
+        <ul>
+           <li>Waktunya Perpanjang Masa Berlaku STNK</li>
+           <li>Waktunya Membayar Pajak Kendaraan</li>
+           <li>Waktunya Perpanjang Masa Berlaku SIM</li>
+           <li>Waktunya Service Berkala</li>
+           <li>Waktunya Ganti Sparepart</li>
+           <li>Hari Ulangtahun</li>
+        </ul>
+      </div>
+      <div class=method>
+        <p>Inget.in dapat memberikan notifikasi dalam bentuk :</p>
+        <ul>
+          <li>PopUp Mobile App</li>
+          <li>E-mail</li>
+          <li>SMS</li>
+        </ul>
+      
+      </div>
+      <div class="broadcast">
+        <p>Selain memberikan pengingat tentang hal hal penting terkait customer, 
+          Inget.in juga dapat memberikan broadcast tentang :</p>
+          <ul>
+            <li>Promotion</li>
+            <li>Invitation</li>
+            <li>Greeting</li>
+           </ul>
+      </div>
     </div>
-    <div class=method>
-      <p>Inget.in dapat memberikan notifikasi dalam bentuk :</p>
-    
-    </div>
-    <div class=broadcast>
-      <p>Selain memberikan pengingat tentang hal hal penting terkait customer, 
-        Inget.in juga dapat memberikan broadcast tentang :</p>
-    </div>
-  </div>
 
   <!-- clients -->
-  <div class="clients">
-    <h3 name="toclients">Our Partner :</h3>
+  <div class="clients" id="toclients">
+    <h2>Our Partner :</h2>
     <ul>
     <img src="http://www.carlogos.org/logo/BMW-logo-2000-2048x2048.png" alt="BMW" width= 25%>
     <img src="http://www.carlogos.org/logo/Ford-logo-2003-1366x768.png" alt="Ford" width= 45%>
@@ -57,24 +75,33 @@
   </div>
   
   <!-- media -->
-  <div class="media">
-    <h3>Documentation :</h3>
-    <p name="tomedia">foto</p>
-    <p>video</p>
+  <div class="media" id="tomedia">
+    <h2>Documentation :</h2>
+    <img src="https://www.imore.com/sites/imore.com/files/styles/xlarge/public/field/image/2016/02/reminders-iphone-6s-plus-hero_6.jpg?itok=aMhrefwJ" alt="" width=50%>
+    <img src="https://www.mosio.com/wp-content/uploads/2017/05/mosio-medication-reminder-app-via-text-messaging-improve-adherence.jpg" alt="" width=50%>
+    <img src="https://www.nextsoftechs.com/wp-content/uploads/2018/09/reminders.jpg" alt="" width=50%>
+    <iframe width="50%" src="https://www.youtube.com/embed/vvPKo5L7x2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   </div>
 
   
   <!-- contact -->
-  <div class="contact">
-    <h3 name="tocontact">if you have any question, let us know</h3>
+  <div class="contact" id="tocontact">
+    <h2>if you have any question, let us know</h2>
       <form action="thanks.html">
         your question: <input type="text" name="firstName"> <br>
         email: <input type="text" name="Your Email"> <br>
         <input type="submit" value="submit">
       </form>
   </div>
-
-  
+   
 </body>
-</html>
+  
+<footer>
+    <!-- footer -->
+  <div class="footer">
+    <div class="foottext">
+      <a> Hacktiv8 Team 5 Inget.in</a>
+    </div>
+  </div>
+</footer>
