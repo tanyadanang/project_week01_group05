@@ -1,0 +1,35 @@
+body {
+    background-image: url("img/bcthanks.png");
+    background-color: #66ccff;
+    height: 50px;
+    align-content: center;
+}
+.badan {
+    margin-top: 250px;
+
+}
+
+body h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+}
+
+body h3{
+    text-align: center;
+    color: aliceblue;
+}
+
+.logo h1{
+    text-align: left;
+    margin: 0%;
+    background-color:#66ccff;
+    padding: 10px;
+    margin: 0px,0px, 0px, 0px;
+    text-decoration: none;  
+}
+
+.badan h1 {
+    text-align: center;
+}
