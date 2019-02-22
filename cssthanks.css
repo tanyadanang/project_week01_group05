@@ -1,9 +1,8 @@
 body {
     background-image: url("img/bos3.png");
-    background-color: #66ccff;
-    height: 50px;
-    align-content: center;
+    background-size: contain;
 }
+
 .badan {
     margin-top: 250px;
 
@@ -23,12 +22,18 @@ body h3{
 }
 
 .logo h1{
-    text-align: left;
-    margin: 0%;
-    background-color:#66ccff;
-    padding: 10px;
-    margin: 0px,0px, 0px, 0px;
-    text-decoration: none;  
+    font-size: 50px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color: aliceblue;
+  width: 150px;
+  /* border: 1px solid black; */
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  /* left: 10px; */
+  padding: 10px;
+  margin: 0px,0px, 0px, 0px;
+  text-decoration: none; 
 }
 
 .badan h1 {

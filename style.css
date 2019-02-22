@@ -7,7 +7,8 @@ html{
 }
 
 body {
-  background-image: url("img/bos3.png")
+  background-image: url("img/bos3.png");
+  background-size: contain;
 }
 
 .header {
@@ -34,7 +35,10 @@ body {
   display: inline-block;
   position: absolute;
   top: 5px;
-  left: 10px
+  /* left: 10px; */
+  padding: 10px;
+  margin: 0px,0px, 0px, 0px;
+  text-decoration: none; 
     
 }
 
@@ -110,6 +114,7 @@ body {
   font-size: 25px;
   margin: 60px auto;
   width: 95%;
+  height: 350px;
   /* border: 1px solid black; */
 }
 
@@ -119,7 +124,7 @@ body {
   /* border: 1px solid black; */
   text-align: center;
   font-size: 20px;
-  height: 1000px;
+  height: 1400px;
   clear: both;
 }
 
@@ -142,7 +147,7 @@ li {
   list-style-type: none;
   font-size: 25px;
   text-align: left;
-  
+  float: right;
 }
 
 .reminder img {
@@ -163,19 +168,35 @@ li {
   clear: right;
   font-size: 25px;
   text-align: left;
+  float: left;
+  margin-top: 50px;
+  width: 95%;
+
 }
 
-.method img {
+.methodimg img {
   clear: right;
   float: left;
 }
 
-.method p {
-  margin-top: 100px;
+
+.methodtext {
+  width: 400px;
+  margin-left: 700px;
+  /* border: 1px solid black; */
+  position: absolute;
+
+
+} 
+
+.methodtext p {
+  margin-top: 60px;
+  /* border: 1px solid black;   */
+
 }
 
-.method ul {
-  position: absolute;
+.methodtext ul {
+  /* position: absolute; */
   left: 650px;
   text-align: left;
 }
@@ -185,16 +206,25 @@ li {
   clear: left;
   font-size: 25px;
   text-align: left;
+  float: right;
+  margin-top: 50px;
+  width: 95%;
 }
 
-.broadcast img {
+.broadcastimg img {
   float: right;
   clear: left;
   margin-bottom: 20px;
 }
 
+.broadcasttext {
+  width: 400px;
+
+  position: absolute;
+}
+
 .broadcast p {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .broadcast li {
@@ -206,6 +236,7 @@ li {
   text-align: center;
   /* border: 1px solid black; */
   clear: both;
+  height: 600px;
   
 }
 
@@ -216,6 +247,7 @@ li {
 .media {
   margin: 20px auto;
   width: 95%;
+  height: 600px;
   text-align: center;
   /* border: 1px solid black; */
   clear: both;
@@ -223,6 +255,10 @@ li {
 
 .media h2 {
   background-color: rgb(153, 102, 255, 0.5);
+}
+
+.logo {
+  margin-top: 100px;
 }
 
 #contact {
@@ -245,6 +281,7 @@ form {
 }
 textarea {
   width: 20%;
+  height: 140px;
   padding: 1px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -279,7 +316,10 @@ footer {
   background-color: orange;
   width: 100%;
   height: 50px;
+  margin-bottom: 0px;
   text-align: center;
+  border: 1px solid black;
+
 
  
 }
