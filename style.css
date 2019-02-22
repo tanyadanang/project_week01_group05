@@ -7,8 +7,7 @@ html{
 }
 
 body {
-  /* background-image: url(http://www.wallpapermaiden.com/image/2016/06/09/gradient-pink-color-abstract-707.jpg);
-  background-size: cover; */
+  background-image: url("img/bos3.png")
 }
 
 .header {
@@ -28,7 +27,7 @@ body {
 
 #logo {
   font-size: 50px;
-  font-family: Arial;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
   color: aliceblue;
   width: 150px;
   /* border: 1px solid black; */
@@ -91,6 +90,7 @@ body {
   font-size: 50px;
   width: 51%;
   color: white;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
 .bannertext h3 {
@@ -106,7 +106,7 @@ body {
 }
 
 .about {
-  text-align: center;
+  text-align: justify;
   font-size: 25px;
   margin: 60px auto;
   width: 95%;
@@ -121,6 +121,10 @@ body {
   font-size: 20px;
   height: 1000px;
   clear: both;
+}
+
+.feature h2{
+  background-color: rgb(153, 102, 255, 0.5);
 }
 
 ul {
@@ -205,6 +209,10 @@ li {
   
 }
 
+.clients h2 {
+  background-color: rgb(153, 102, 255, 0.5);
+}
+
 .media {
   margin: 20px auto;
   width: 95%;
@@ -213,11 +221,19 @@ li {
   clear: both;
 }
 
+.media h2 {
+  background-color: rgb(153, 102, 255, 0.5);
+}
+
 #contact {
   margin: 20px auto;
   width: 95%;
   text-align: center;
   /* border: 1px solid black; */
+}
+
+#contact h3 {
+  background-color: rgb(153, 102, 255, 0.5);
 }
 
 /*form*/

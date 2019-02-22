@@ -1,5 +1,5 @@
 body {
-    background-image: url("img/bcthanks.png");
+    background-image: url("img/bos3.png");
     background-color: #66ccff;
     height: 50px;
     align-content: center;
@@ -13,6 +13,7 @@ body h1{
     text-align: center;
     color: aliceblue;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
+    
 
 }
 
@@ -32,6 +33,12 @@ body h3{
 
 .badan h1 {
     text-align: center;
+    color: black;
+}
+
+.badan h3 {
+    text-align: center;
+    color: black;
 }
 
 .header {
@@ -50,7 +57,7 @@ body h3{
 
   #logo {
     font-size: 50px;
-    font-family: Arial;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
     color: aliceblue;
     width: 150px;
     /* border: 1px solid black; */
